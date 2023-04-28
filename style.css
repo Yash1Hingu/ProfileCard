@@ -18,12 +18,12 @@ main{
     position: absolute;
 }
 .top{
-    top: -500px;
-    left: -500px;
+    bottom: 50vh;
+    right: 50vw;
 }
 .bottom{
-    bottom: -700px;
-    right: -300px;
+    top: 50vh;
+    left: 50vw;
 }
 .profileBox{
     background-color: hsl(0, 0%, 100%);
@@ -79,5 +79,16 @@ main{
     font-weight: 800;
     color: hsl(0, 0%, 0%);
     font-size: 20px;
+}
+
+@media screen and (max-width: 520px){
+    .top{
+        bottom: 40vh;
+        right: 30vw;
+    }
+    .bottom{
+        top: 40vh;
+        left: 40vw;
+    }
 }
 
