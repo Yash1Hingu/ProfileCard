@@ -12,6 +12,7 @@ main{
     flex-direction: column;
     align-items: center;
     background-color: hsl(185, 75%, 39%);
+    font-family:'Kumbh Sans', sans-serif;;
 }
 .bg-svg{
     position: absolute;
@@ -27,10 +28,12 @@ main{
 .profileBox{
     background-color: hsl(0, 0%, 100%);
     z-index: 2;
+    width: 300px;
     border-radius: 15px;
     box-shadow: 2px 2px 100px 0 hsl(0, 0%, 0%,0.5);
 }
 .bg_pattern{
+    width: 100%;
     border-radius: 15px 15px 0 0;
 }
 .profile{
@@ -57,17 +60,24 @@ main{
 }
 .person__place{
     color: hsl(227, 10%, 46%);
+    margin: 10px 0 20px;
 }
 .social_details{
     position: relative;
     display: flex;
     justify-content: space-evenly;
     padding: 20px;
+    gap: 20px;
     color: hsl(227, 10%, 46%);
     border-top: 2px solid hsl(227, 10%, 46%,0.5);
 }
-.count{
+.social_details div p{
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+.social_details .count{
     font-weight: 800;
     color: hsl(0, 0%, 0%);
+    font-size: 20px;
 }
 
