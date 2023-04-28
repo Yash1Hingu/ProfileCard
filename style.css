@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    position: relative;
+    overflow: hidden;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: hsl(185, 75%, 39%);
+}
+.bg-svg{
+    position: absolute;
+}
+.top{
+    top: -500px;
+    left: -500px;
+}
+.bottom{
+    bottom: -700px;
+    right: -300px;
+}
+.profileBox{
+    background-color: hsl(0, 0%, 100%);
+    z-index: 2;
+    border-radius: 15px;
+    box-shadow: 2px 2px 100px 0 hsl(0, 0%, 0%,0.5);
+}
+.bg_pattern{
+    border-radius: 15px 15px 0 0;
+}
+.profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5px;
+}
+.profile img{
+    border-radius: 50%;
+    border: 3px solid hsl(0, 0%, 100%);
+}
+.person_detils{
+    margin-top: 60px;
+    text-align: center;
+}
+.person_detils .person__name{
+    display: inline;
+    font-weight: 900;
+}
+.person_detils .person__age{
+    display: inline;
+    color:  hsl(227, 10%, 46%);
+}
+.person__place{
+    color: hsl(227, 10%, 46%);
+}
+.social_details{
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    color: hsl(227, 10%, 46%);
+    border-top: 2px solid hsl(227, 10%, 46%,0.5);
+}
+.count{
+    font-weight: 800;
+    color: hsl(0, 0%, 0%);
+}
+
